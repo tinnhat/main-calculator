@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="header">
+        <p class="text">calc</p>
+        <div class="change-theme">
+          <p class="text-theme">THEME</p>
+          <p class="theme-number number-theme">1</p>
+          <p class="theme-number number-theme-2">2</p>
+          <p class="theme-number number-theme-3">3</p>
+
+          <input type="range" min="0" max="2" step="1" value="0" id="theme" />
+        </div>
+      </div>
+      <p class="number-box">0</p>
+      <div class="box-math">
+        <div class="row">
+          <button class="btn" id="bay">7</button>
+          <button class="btn" id="tam">8</button>
+          <button class="btn" id="chin">9</button>
+          <button class="btn-del">DEL</button>
+        </div>
+        <div class="row">
+          <button class="btn" id="bon">4</button>
+          <button class="btn" id="nam">5</button>
+          <button class="btn" id="sau">6</button>
+          <button class="btn" id="cong">+</button>
+        </div>
+        <div class="row">
+          <button class="btn" id="mot">1</button>
+          <button class="btn" id="hai">2</button>
+          <button class="btn" id="ba">3</button>
+          <button class="btn" id="tru">-</button>
+        </div>
+        <div class="row">
+          <button class="btn" id="phay">.</button>
+          <button class="btn" id="khong">0</button>
+          <button class="btn" id="chia">/</button>
+          <button class="btn" id="nhan">x</button>
+        </div>
+        <div class="row">
+          <button class="btn-reset">RESET</button>
+          <button class="btn-result">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
